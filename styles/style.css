@@ -124,14 +124,13 @@ width: 642px;
 }
 
 .container-2 {
-    height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
-    padding:140px 140px;
-    margin-top: 0px;
-    /* border: 1px solid red; */
+    height: 482px;
+    margin:120px 140px;
 }
 .container-text {
+    margin-top: 130px;
     color: #070211;
     font-family: 'Inter';
     font-size: 32px;
@@ -306,7 +305,7 @@ footer p {
   align-items: center;
   margin: 50px 0;
 }
-.photo > img:hover{
-    transform: scale(1.2);
+.photo img:hover{
+    transform: scale(1.5);
     transition: 2s;
 }
